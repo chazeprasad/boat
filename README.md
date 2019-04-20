@@ -1,10 +1,6 @@
-# TMS Api Stub
+# Boat Framework for API development
 
-### Fake Rest API for Front-end development..
-
-A common task for front-end developers is to simulate a backend REST service to deliver some data in JSON format to the front-end application and make sure everything is working as expected.
-
-This project is created for front-end developers who need a quick back-end for prototyping and mocking. It helps you to setup a REST API with CRUD operations very fast.
+### Rest API for Web and Mobile apps.
 
 It features the following technologies:
 
@@ -25,7 +21,7 @@ It features the following technologies:
 ### How to run the server
 Clone the repo
 ```
-git clone https://git.highradius.com/tms-cloud/tms-services/tms-api-stub.git
+git clone https://github.com/chazeprasad/boat
 npm install
 gulp dev
 ```
@@ -33,8 +29,6 @@ gulp dev
 ### How to create a CRUD API
 Create a controller file under src/controller.
 eg: TodoController.ts
-
-You can use JSON document for dummy data. If you want something more quick to modify both schema and size of dataset use MongoDB.
 
 
 ```javascript

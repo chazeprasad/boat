@@ -1,7 +1,7 @@
 {
-  "name": "tms-api-stub",
+  "name": "@appengine/boat",
   "version": "1.0.0",
-  "description": "Fake Rest API for Front-end development.. ",
+  "description": "Rest API for Web and Mobile apps",
   "main": "index.js",
   "scripts": {
     "heroku-postbuild": "gulp build && npm run seed",
